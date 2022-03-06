@@ -36,7 +36,6 @@ public class FirstPersonController : MonoBehaviour
     {
         GetInputs();
         
-        
         _camera.transform.Rotate(-Vector3.right * _mouseY * mouseSensitivity * Time.deltaTime);
     }
 
